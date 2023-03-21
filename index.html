@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Туры по всей России</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body class="fw-light">
+    <div class="maindiv">
+        <ul class="nav nav-tabs" style="height: 50px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tury.html">Все походы и туры</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="otzyvy.html">Отзывы</a>
+            </li>
+        </ul>
+        <div style="background-image: url(bgimg.jpeg); height: 600px;">
+            <div class="col-10 mx-auto" style="height: 100px; padding-top: 200px;">
+                <h3 class="text-center">Путешествие начинается здесь!</h3>
+                <div class="input-group mx-auto" style="height: 60px; width: 70%;">
+                    <input type="text" placeholder="Куда собираемся?" class="form-control">
+                    <input type="text" placeholder="Дата поездки" class="form-control">
+                    <input type="text" placeholder="Вид активности" class="form-control">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2" href="#">Найти!</button>
+                </div> 
+            </div>
+        </div>
+        <div class="col-11 mx-auto" style="height: 500px; margin-top: 150px;">
+            <h1 class="text-center">Популярно</h1>
+            <div class="card-group">
+                <div class="card">
+                  <img src="baikal.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Переход через замороженное озеро Байкал </h5>
+                    <p class="card-text">19 февраля по 21 февраля</p>
+                    <p class="card-text">9899 рублей</p>
+                    <form action="baikal.html">
+                        <button type="submit" class="btn btn-outline-success">Записаться</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="winter.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Две ночи в сказочном лесу Краснодара</h5>
+                    <p class="card-text">с 28 февраля по 1 марта</p>
+                    <p class="card-text">5250 рублей</p>
+                    <button href="#" class="btn btn-outline-success">Записаться</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="pobeda.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Восхождение на гору Победа в Якутии</h5>
+                    <p class="card-text">с 6 марта по 7 марта</p>
+                    <p class="card-text">31299 рублей</p>
+                    <button href="#" class="btn btn-outline-success">Записаться</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-10 mx-auto" style="height: 650px; margin-top: 200px;">
+            <h3 style="margin-left: 50px;">Виды активности</h3>
+            <div class="col-12 d-flex" style="height: 300px; margin-top: 50px;">
+                <div class="card mb-3" style="width: 500px; height: 250px; margin-left: 44px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Восхождения на горы</h5>
+                        <p class="card-text">Найдено на нашем сайте всего 76 различных походов по России</p>
+                        <a href="tury.html" class="btn btn-outline-primary">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="card text-end" style="width: 500px; height: 250px; margin-left: 80px;">
+                    <div class="card-body">
+                        <h5 class="card-title">С рюкзаком</h5>
+                        <p class="card-text">Найдено на нашем сайте всего 153 различных походов по России</p>
+                        <a href="tury.html" class="btn btn-outline-primary">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex" style="height: 300px;">
+                <div class="card mb-3" style="width: 500px; height: 250px; margin-left: 44px;">
+                    <div class="card-body">
+                        <h5 class="card-title">С детьми</h5>
+                        <p class="card-text">Найдено на нашем сайте всего 20 различных походов по России</p>
+                        <a href="tury.html" class="btn btn-outline-primary">Посмотреть</a>
+                    </div>
+                </div>
+                <div class="card text-end" style="width: 500px; height: 250px; margin-left: 80px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Все активности</h5>
+                        <p class="card-text">Найдено на нашем сайте всего 322 различных походов по России</p>
+                        <a href="tury.html" class="btn btn-outline-primary">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide col-8 mx-auto" style="margin-top: 100px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="wu1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="wu2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="wu3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="col-12 border-top border-bottom d-flex" style="height: 360px; margin-top: 150px;">
+            <div id="kontakty" class="col-3" style="height: 360px; margin-left: 75px;">
+                <h3>Контакты</h3>
+                <span class="fs-4 d-block">Номер телефона:</span>
+                <span class="fs-5 d-block">8(800)100X0X0</span>
+                <span class="fs-4 d-block mt-3">Почта:</span>
+                <span class="fs-5 d-block">travelclub@email.com</span>
+                <span class="fs-4 d-block mt-3">Наши адреса:</span>
+                <span class="fs-5 d-block">Москва, улица -- дом 13/2</span>
+                <span class="fs-5 d-block">Санкт-Петербург, улица -- дом 65</span>
+            </div>
+            <div id="navigation" class="col-3" style="height: 360px; margin-left: 100px;">
+                <h3>Навигация</h3>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">О нас</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Отзывы</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Статьи</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Виды активности</a>
+            </div>
+            <div id="info" class="col-3" style="height: 360px; margin-left: 100px;">
+                <h3>Информация</h3>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Способы оплаты</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Контакты</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Туры на заказ</a>
+                <a href="#" class="text-dark fs-4 d-block mt-3 linka">Как пойти</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
